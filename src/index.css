@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #3B82F6;
+  --color-success: #10B981;
+  --color-danger: #EF4444;
+  --color-zinc-900: #18181b;
+  --color-zinc-800: #27272a;
+  --color-bg-base: #050505;
+  --font-sans: "Inter", "Helvetica Neue", sans-serif;
+  --font-mono: "Courier New", monospace;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: #ffffff;
+  font-family: var(--font-sans);
+}
